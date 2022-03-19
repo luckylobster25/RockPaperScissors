@@ -21,4 +21,21 @@ body {
     padding-top: 10px;
     padding-bottom: 5px;
 }
+.rule-container {
+    background-color: rgba(102, 196, 164, 0.651);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.rule-container-2 {
+    display: inline-flex;
+}
+.rule-message-box {
+    justify-content: center;
+}
+.rule-btn {
+    margin: 30px 10px;
+}
+.rules {
+    display: none;
+}
 /* Class end */
