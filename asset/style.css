@@ -1,0 +1,24 @@
+:root {
+    margin: 10px;
+}
+body {
+    background-color: rgb(253, 255, 255);
+}
+
+/* Class begin */
+.title {
+    font-size: 50px;
+    font-weight: bolder;
+}
+.goodbye-message {
+    display: none;
+}
+.game-box {
+    background-color: rgba(127, 255, 212, 0.651);
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+/* Class end */
