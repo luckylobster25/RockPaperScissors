@@ -16,20 +16,20 @@ body {
 .game-box {
     background-color: rgba(127, 255, 212, 0.651);
     text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     padding-top: 10px;
     padding-bottom: 5px;
 }
 .game-body {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     padding: 5px;
 }
 .rule-container {
     background-color: rgba(102, 196, 164, 0.651);
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .rule-container-2 {
     display: inline-flex;
@@ -45,8 +45,8 @@ body {
     /* display: none; */
 }
 .score {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     padding: 5px;
 }
 .score-list {
@@ -80,10 +80,24 @@ body {
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: 25px;
-    border-radius: 50%;
+    border-radius: 0%;
     background-color: aquamarine;
     width: 130px;
     padding: 10px;
     text-align: center;
+}
+.winner-loser {
+    color: rgb(250, 0, 0);
+    font-size: 40px;
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.reset {
+    margin-left: 5%;
+    padding: 5px 5px 5px 0px;
+    background-color: aquamarine;
+    width: fit-content;
+    border: double 2px rgb(65, 172, 136);
 }
 /* Class end */

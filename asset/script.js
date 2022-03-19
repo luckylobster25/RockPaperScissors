@@ -31,10 +31,13 @@ rockOption.addEventListener("click", function () {
     document.getElementById('player-message').innerText = "You picked ROCK"
     if (computerChoice == playerChoice) {
         tieScore.innerText++
+        document.querySelector(".winner-loser").innerText = "It is a Tie!"
     } else if (computerChoice == 1) {
         computerScore.innerText++
+        document.querySelector(".winner-loser").innerText = "Computer Win!"
     } else {
         playerScore.innerText++
+        document.querySelector(".winner-loser").innerText = "You Win!"
     }
 })
 var paperOption = document.querySelector(".paper")
@@ -44,6 +47,7 @@ paperOption.addEventListener("click", function () {
     if (computerChoice == 0) {
         computerPick.setAttribute('src', 'rock.jpg')
         document.getElementById('computer-message').innerText = "Computer picked ROCK"
+
     } else if (computerChoice == 1) {
         computerPick.setAttribute('src', 'paper.jpg')
         document.getElementById('computer-message').innerText = "Computer picked PAPER"
@@ -55,10 +59,13 @@ paperOption.addEventListener("click", function () {
     document.getElementById('player-message').innerText = "You picked PAPER"
     if (computerChoice == playerChoice) {
         tieScore.innerText++
+        document.querySelector(".winner-loser").innerText = "It is a Tie!"
     } else if (computerChoice == 2) {
         computerScore.innerText++
+        document.querySelector(".winner-loser").innerText = "Computer Win!"
     } else {
         playerScore.innerText++
+        document.querySelector(".winner-loser").innerText = "You Win!"
     }
 })
 var scissorOption = document.querySelector(".scissor")
@@ -79,9 +86,17 @@ scissorOption.addEventListener("click", function () {
     document.getElementById('player-message').innerText = "You picked SCISSOR"
     if (computerChoice == playerChoice) {
         tieScore.innerText++
+        document.querySelector(".winner-loser").innerText = "It is a Tie!"
     } else if (computerChoice == 0) {
         computerScore.innerText++
+        document.querySelector(".winner-loser").innerText = "Computer Win!"
     } else {
         playerScore.innerText++
+        document.querySelector(".winner-loser").innerText = "You Win!"
     }
+})
+var resetBtn = document.querySelector(".reset").addEventListener("click", function () {
+    playerScore.innerText = "0"
+    computerScore.innerText = "0"
+    tieScore.innerText = "0"
 })
