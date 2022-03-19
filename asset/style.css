@@ -21,6 +21,11 @@ body {
     padding-top: 10px;
     padding-bottom: 5px;
 }
+.game-body {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5px;
+}
 .rule-container {
     background-color: rgba(102, 196, 164, 0.651);
     margin-left: 10%;
@@ -37,5 +42,17 @@ body {
 }
 .rules {
     display: none;
+}
+.rock {
+    margin: 15px;
+    width: 75px;
+}
+.paper {
+    margin: 15px;
+    width: 75px;
+}
+.scissor {
+    margin: 15px;
+    width: 75px;
 }
 /* Class end */
