@@ -14,7 +14,7 @@
   </div>
   <div class="rule-container">
     <section class="rule-container-2">
-      <button class="rule-btn">Rules</button>
+      <button class="rule-btn" onclick="hideShow()">Rules</button>
       <ol class="rule-message-box">
         <li class="rules">You have to click on one of these; "rock", "paper", or "scissor".</li>
         <li class="rules">Computer's choice are random.</li>
@@ -22,16 +22,32 @@
       </ol>
     </section>
   </div>
+  <nav class="score">
+    <ul class="score-list">
+      <li class="player-score">Player's score: <span id="player-score"></span></li>
+      <li class="computer-score">Computer's score: <span id="computer-score">0</span></li>
+      <li class="tie-score">Tie: <span id="tie-score">0</span></li>
+    </ul>
+  </nav>
   <div class="game-body">
-    <p>Player:</p>
+    <p class="user">Player</p>
+    <p id="player-message">Please click on one of the option</p>
     <div class="player-choice">
       <img class="rock" src="rock.jpg" alt="rock">
       <img class="paper" src="paper.jpg" alt="paper">
       <img class="scissor" src="scissor.jpg" alt="scissor">
     </div>
+    <p class="user">Computer</p>
+    <p id="computer-message">Computer have not pick yet</p>
+    <div class="computer-body">
+      <img id="computer-choice" src="" alt="">
+    </div>
+    <div>
+      <h3 class="winner-loser"></h3>
+    </div>
   </div>
   <h1 class="goodbye-message">Thanks for playing!</h1>
-  <!-- <script src="./script.js"></script> -->
+  <script src="script.js"></script>
 </body>
 
 </html>

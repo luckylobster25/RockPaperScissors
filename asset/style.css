@@ -36,23 +36,54 @@ body {
 }
 .rule-message-box {
     justify-content: center;
+    display: none;
 }
 .rule-btn {
     margin: 30px 10px;
 }
 .rules {
-    display: none;
+    /* display: none; */
+}
+.score {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5px;
+}
+.score-list {
+    display: inline-block;
+    list-style: none;
+    padding-left: 0px;
+    font-size: 25px;
+}
+.player-score {
+    display: inline-block;
+    margin: 0px 5px;
+}
+.computer-score {
+    display: inline-block;
+    margin: 0px 5px;
+}
+.tie-score {
+    display: inline-block;
+    margin: 0px 5px;
 }
 .rock {
     margin: 15px;
-    width: 75px;
 }
 .paper {
     margin: 15px;
-    width: 75px;
 }
 .scissor {
     margin: 15px;
-    width: 75px;
+}
+.user {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 25px;
+    border-radius: 50%;
+    background-color: aquamarine;
+    width: 130px;
+    padding: 10px;
+    text-align: center;
 }
 /* Class end */
